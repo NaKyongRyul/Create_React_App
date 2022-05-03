@@ -16,6 +16,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -36,6 +38,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
   "homepage": "https://skrudfbf0813@naver.com.github.io/Create_React_App"
 }
